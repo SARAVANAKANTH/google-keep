@@ -1,0 +1,30 @@
+.search{
+    width:sex;
+    margin: auto;
+}
+SearchInput{
+    margin-top: 105px;
+    display: flex;
+}
+.search input{
+    background-color: black;
+    border:0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 19999px;
+    padding: 10px;
+    height: 10px;
+    width: 30px;
+}
+.searchIcon{
+    height:60px;
+    width:50px;
+    background-color: red;
+    display: grid;
+    place-items: left;
+
+}
+.SearchIcon svg{
+    font-size: 3Spx;
+}
