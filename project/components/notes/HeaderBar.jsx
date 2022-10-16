@@ -1,13 +1,9 @@
 import React from 'react'
-import { AppBar, Toolbar, Typography, IconButton,SearchOutlined as Search } from '@mui/material';
+import { AppBar, Toolbar, Typography, IconButton} from '@mui/material';
 import { Menu} from '@mui/icons-material';
-import { styled,alpha} from '@mui/material/styles';
+import { styled} from '@mui/material/styles';
 import AddIcon from '@mui/icons-material/Add';
-import SearchAppBar from '../HeaderBar';
-import Box from '@mui/material/Box';
-import InputBase from '@mui/material/InputBase';
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
+
 const Header = styled(AppBar)`
   z-index: 1201;
   background: #fff;
