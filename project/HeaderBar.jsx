@@ -31,8 +31,6 @@ const HeaderBar = ({ open, handleDrawer }) => {
         </IconButton>
         <img src={logo} alt="logo" style={{width: 40}} />
         <Heading>Keep</Heading>
-        <img src={logo} alt="search" style={{width: 20}} />
-        <Heading>search</Heading>
       </Toolbar>
     </Header>
   )
